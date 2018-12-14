@@ -1,12 +1,21 @@
 body {
   border-style: none;
-  font-family: sans-serif;
+  font-family: 'Merriweather', serif;
   margin: 0;
   text-align: center;
 }
 
 h1 {
   margin-top: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  font-family: 'Montserrat', cursive;
+}
+
+h3{
+  font-family: 'Montserrat', cursive;
 }
 
 .top {
