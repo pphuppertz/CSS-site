@@ -11,6 +11,8 @@ h1 {
 
 .top {
   background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px
 }
 
 .middle {
@@ -27,4 +29,16 @@ h1 {
 
 .cursive {
   font-style: italic;
+}
+
+.top-cloud {
+  position: absolute;  
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px
 }
