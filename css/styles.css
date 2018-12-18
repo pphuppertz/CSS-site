@@ -67,7 +67,13 @@ a{
 }
 
 .skills-image {
-  width: 12.5%;
+  width: 20%;
   margin-right: 30px;
   float: left;
+}
+
+.hobbies-image {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
 }
