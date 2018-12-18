@@ -58,3 +58,16 @@ a{
   left: 300px;
   bottom: 300px
 }
+
+.skill-row {
+  margin: 50px auto 50px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.skills-image {
+  width: 12.5%;
+  margin-right: 30px;
+  float: left;
+}
