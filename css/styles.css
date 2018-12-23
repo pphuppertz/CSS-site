@@ -25,12 +25,25 @@ h3{
   color: #11999E;
 }
 
+p {
+  color: #40514e
+}
+
+hr {
+  height: 0;
+  width: 5%;
+  border-style: none;
+  border-color: #eaf6f6;
+  border-top-style: dotted;
+  border-width: 5px;
+}
+
 a{
   color: #11999E
 }
 
 .top-container {
-  background-color: #e4f9f5;
+  background-color: #eaf6f6;
   position: relative;
   padding-top: 100px
 }
@@ -40,7 +53,8 @@ a{
 }
 
 .bottom-container {
-  margin: 40px
+  background-color: #66bfbf;
+  padding: 40px
 }
 
 .cursive {
@@ -76,4 +90,46 @@ a{
   width: 20%;
   float: right;
   margin-left: 30px;
+}
+
+.contact-button {
+  background: #66bfbf;
+  background-image: -webkit-linear-gradient(top, #66bfbf, #328787);
+  background-image: -moz-linear-gradient(top, #66bfbf, #328787);
+  background-image: -ms-linear-gradient(top, #66bfbf, #328787);
+  background-image: -o-linear-gradient(top, #66bfbf, #328787);
+  background-image: linear-gradient(to bottom, #66bfbf, #328787);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 32px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  background: #66bfbf;
+  background-image: -webkit-linear-gradient(top, #66bfbf, #328787);
+  background-image: -moz-linear-gradient(top, #66bfbf, #328787);
+  background-image: -ms-linear-gradient(top, #66bfbf, #328787);
+  background-image: -o-linear-gradient(top, #66bfbf, #328787);
+  background-image: linear-gradient(to bottom, #66bfbf, #328787);
+  text-decoration: none;
+}
+
+.footer-link {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-size: 2rem;
+  color: #11999E;
+  margin-left: 30px;
+  text-decoration: none;
+  line-height: 5;
+}
+
+.copyright-notice {
+  color: #eaf6f6;
+  line-height: 5;
 }
