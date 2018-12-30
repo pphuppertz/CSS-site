@@ -91,9 +91,18 @@ a{
 }
 
 .skills-image {
-  width: 20%;
+  width: 100%;
   margin-right: 30px;
   float: left;
+}
+
+.skills-image-td {
+  width: 130px;
+  height: 150px;
+}
+
+.skills-text-td {  
+  padding: 0 20px 0 20px;
 }
 
 .hobbies-image {
